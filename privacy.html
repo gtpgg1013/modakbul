@@ -17,25 +17,27 @@
 <body>
 <main>
   <h1>모닥불 개인정보처리방침</h1>
-  <p>시행일: 2026년 10월 2일</p>
-  <p><strong>모닥불 개발자는 어떠한 개인정보도 수집하지 않습니다.</strong></p>
+  <p>시행일: 2026년 11월 9일</p>
+  <p><strong>모닥불은 개인정보를 모으지 않습니다. 알림을 켠 경우에만, 알림을 전달하려고 Google Firebase가 기기 토큰을 처리합니다.</strong></p>
   <ul>
-    <li>개발자는 이름, 이메일, 위치, 사용 기록, 광고 식별자를 수집·저장·전송하지 않습니다.</li>
+    <li>개발자는 이름, 이메일, 위치, 사용 기록, 광고 식별자를 수집하거나 저장하거나 전송하지 않습니다.</li>
     <li>새 버전 확인을 위해 iOS 앱은 Apple의 공개 App Store 정보에 앱 식별자만 요청하고, Android 앱은 Google Play의 업데이트 가능 여부를 확인합니다. 연결 과정에서 IP 주소 등 일반적인 접속 정보가 각 스토어에 전달될 수 있습니다. iOS에서 조회한 버전과 확인 시각은 기기에만 저장합니다.</li>
     <li>글, 사용 기록, 기기 식별자는 버전 확인 요청에 포함하지 않습니다. 인터넷이 없어도 앱의 주요 기능은 동작합니다.</li>
-    <li>광고, 분석 도구, 추적 SDK를 사용하지 않습니다.</li>
+    <li>새 소식 알림(선택): 앱은 처음 불을 켤 때 한 번 묻고, 사용자가 ‘알려 줘’를 고른 경우에만 알림을 켭니다. 켜면 Google Firebase Cloud Messaging이 알림 전달을 위해 이 설치본의 기기 토큰(무작위 식별자)을 만들어 처리하고, 기기는 언어와 플랫폼과 앱 빌드 번호로 나눈 알림 주제(예: android-ko)를 구독합니다. 개발자는 토큰을 따로 받거나 저장하지 않고 주제 단위로만 알림을 보냅니다. 글, 사용 기록, 위치는 알림에 쓰지 않습니다. 설정의 ‘새 소식 알림’에서 ‘안 받기’를 고르면 구독을 끊고 토큰을 지웁니다. Google의 처리 방식: <a href="https://firebase.google.com/support/privacy">Firebase 개인정보 보호</a></li>
+    <li>광고, 분석 도구, 추적 SDK를 사용하지 않습니다. 알림에 쓰는 Firebase에서도 애널리틱스는 끕니다.</li>
     <li>사용자가 남겨둔 글은 기기 안에 저장되며 개발자에게 전송되지 않습니다. 태워버린 글은 저장하지 않습니다. 사용자가 공유하기를 직접 선택하면 공유 이미지에 포함된 글이나 사진이 선택한 외부 앱으로 전달될 수 있습니다. 앱을 삭제하면 기기에 남겨둔 기록도 함께 삭제됩니다.</li>
   </ul>
   <p>문의: <a href="mailto:gtpgg1013@gmail.com">gtpgg1013@gmail.com</a></p>
 
   <h2 id="english">Privacy Policy (English)</h2>
-  <p>Effective date: October 2, 2026</p>
-  <p><strong>The developer of Modakbul does not collect any personal data.</strong></p>
+  <p>Effective date: November 9, 2026</p>
+  <p><strong>Modakbul does not collect personal data. Only if you turn on notifications, Google Firebase processes a device token to deliver them.</strong></p>
   <ul>
     <li>The developer does not collect, store, or transmit names, email addresses, locations, usage history, or advertising identifiers.</li>
     <li>For update checks, the iOS app requests public App Store information from Apple using only its app ID, and the Android app checks update availability through Google Play. Each store may receive ordinary connection information such as your IP address. On iOS, the returned version and check time stay on your device.</li>
     <li>Your writing, usage history, and device identifiers are not included in update checks. The app's main features work without internet access.</li>
-    <li>No ads, analytics, or tracking SDKs.</li>
+    <li>News notifications (optional): the app asks once when you first light the fire and turns notifications on only if you choose “Notify me”. When on, Google Firebase Cloud Messaging creates and processes a device token (a random identifier for this app install) to deliver them, and the device subscribes to notification topics grouped by language, platform, and app build number (for example, android-en). The developer does not receive or store tokens and sends notifications only by topic. Your writing, usage history, and location are never used for notifications. Choosing Off under News alerts in Settings unsubscribes and deletes the token. How Google handles this: <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a></li>
+    <li>No ads, analytics, or tracking SDKs. Firebase Analytics is turned off.</li>
     <li>Writing you choose to keep is stored on your device and is not sent to the developer. Burned writing is not saved. If you choose to share, words or photos included in a share image may be passed to the external app you select. Deleting the app also deletes records kept on your device.</li>
   </ul>
   <p>Contact: <a href="mailto:gtpgg1013@gmail.com">gtpgg1013@gmail.com</a></p>
